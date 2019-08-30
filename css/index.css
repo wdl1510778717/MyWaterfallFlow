@@ -1,0 +1,13 @@
+.background {
+  position: relative;
+}
+.background .container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  padding-top: 12px;
+}
+
+/*# sourceMappingURL=index.css.map */

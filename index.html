@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>照片墙</title>
+  <link rel="stylesheet" href="./css/background.css"/>
+  <link rel="stylesheet" href="./css/index.css"/>
+  <link rel="stylesheet" href="./css/theWaterfallFlow.css"/>
+</head>
+
+<body>
+  <div class="background">
+    <div class="container">
+      <div id="notice" class="off"></div>
+      <div id="cells"></div>
+      <div id="loader"><span></span></div>
+      <script type="text/template" id="template">
+        <p><a href="#"><img src="img/{{src}}.jpg" height="{{height}}" width="{{width}}" /></a></p>
+        <!--<h2><a href="#">{{title}}</a></h2>
+        <span class="like">Like!</span>
+        <span class="mark">Mark!</span>-->
+      </script>
+    </div>
+  </div>
+  <script src="./js/background.js"></script>
+  <script>var isGithubDemo = true;</script>
+  <script src="./front.js/front.min.js"></script>
+  <script src="./js/theWaterfallFlow.js"></script>
+</body>
+
+</html>
